@@ -19,7 +19,7 @@ const postgres = {
     user: process.env.user || "strapi",
     password: process.env.password || "strapi",
     port: process.env.db_port || 5432,
-    host: process.env.host || "localhost",
+    host: process.env.db_host || "localhost",
   },
 };
 
