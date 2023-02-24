@@ -12,9 +12,9 @@
   "devDependencies": {},
   "dependencies": {
     "@faker-js/faker": "^7.6.0",
-    "@strapi/plugin-i18n": "4.7.0-exp.3d6a31eb083e9d44afcf98f68c107fb7567e5720",
-    "@strapi/plugin-users-permissions": "4.7.0-exp.3d6a31eb083e9d44afcf98f68c107fb7567e5720",
-    "@strapi/strapi": "4.7.0-exp.3d6a31eb083e9d44afcf98f68c107fb7567e5720",
+    "@strapi/plugin-i18n": "4.7.0-exp.117579f4c13806c2cd518e7d7d2f9d0c8a20107d",
+    "@strapi/plugin-users-permissions": "4.7.0-exp.117579f4c13806c2cd518e7d7d2f9d0c8a20107d",
+    "@strapi/strapi": "4.7.0-exp.117579f4c13806c2cd518e7d7d2f9d0c8a20107d",
     "better-sqlite3": "8.0.1",
     "faker-js": "^1.0.0",
     "pg": "8.8.0"
