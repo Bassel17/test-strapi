@@ -14,34 +14,34 @@ module.exports = {
   register({ strapi }) {},
 
   async bootstrap({ strapi }) {
-    // for (let index = 0; index < 10000; index++) {
-    //   // const config = strapi.config.get("plugin.upload");
-    //   // const file = await axios.get(faker.image.abstract(), {
-    //   //   responseType: "arraybuffer",
-    //   // });
-    //   // const photo = {
-    //   //   name: faker.word.noun(),
-    //   // };
-    //   // const entity = {
-    //   //   name: `${photo.name}`,
-    //   //   hash: `${photo.name}`,
-    //   //   ext: ".jpg",
-    //   //   mime: file.headers["content-type"],
-    //   //   size: file.headers["content-length"],
-    //   //   provider: config.provider,
-    //   //   tmpWorkingDirectory: "./public/uploads",
-    //   //   getStream: () => Readable.from(file.data),
-    //   // };
-    //   // await strapi.plugin("upload").service("upload").uploadImage(entity);
-    //   // const media = await strapi
-    //   //   .query("plugin::upload.file")
-    //   //   .create({ data: entity });
+    // for (let index = 0; index < 100; index++) {
+    //   const config = strapi.config.get("plugin.upload");
+    //   const file = await axios.get(faker.image.abstract(), {
+    //     responseType: "arraybuffer",
+    //   });
+    //   const photo = {
+    //     name: faker.word.noun(),
+    //   };
+    //   const entity = {
+    //     name: `${photo.name}`,
+    //     hash: `${photo.name}`,
+    //     ext: ".jpg",
+    //     mime: file.headers["content-type"],
+    //     size: file.headers["content-length"],
+    //     provider: config.provider,
+    //     tmpWorkingDirectory: "./public/uploads",
+    //     getStream: () => Readable.from(file.data),
+    //   };
+    //   await strapi.plugin("upload").service("upload").uploadImage(entity);
+    //   const media = await strapi
+    //     .query("plugin::upload.file")
+    //     .create({ data: entity });
     //   try {
-    //     // await strapi.query("api::article.article").deleteMany({});
     //     await strapi.entityService.create("api::article.article", {
     //       data: {
     //         title: faker.word.noun(),
     //         content: faker.lorem.paragraph(),
+    //         image: media,
     //         publicationState: "Published",
     //         publishedAt: "2023-01-23T17:10:46.984Z",
     //       },
@@ -50,6 +50,7 @@ module.exports = {
     //     console.log(e.details);
     //   }
     // }
+    // await strapi.query("plugin::upload.file").deleteMany();
   },
 
   destroy({ strapi }) {},
