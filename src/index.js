@@ -14,7 +14,7 @@ module.exports = {
   register({ strapi }) {},
 
   async bootstrap({ strapi }) {
-    // for (let index = 0; index < 100; index++) {
+    // for (let index = 0; index < 1000; index++) {
     //   const config = strapi.config.get("plugin.upload");
     //   const file = await axios.get(faker.image.abstract(), {
     //     responseType: "arraybuffer",
