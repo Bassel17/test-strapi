@@ -13,9 +13,9 @@
   "devDependencies": {},
   "dependencies": {
     "@faker-js/faker": "^7.6.0",
-    "@strapi/plugin-i18n": "4.10.6",
-    "@strapi/plugin-users-permissions": "4.10.6",
-    "@strapi/strapi": "4.10.6",
+    "@strapi/plugin-i18n": "4.11.0-exp.push-transfer-push-stuck",
+    "@strapi/plugin-users-permissions": "4.11.0-exp.push-transfer-push-stuck",
+    "@strapi/strapi": "4.11.0-exp.push-transfer-push-stuck",
     "better-sqlite3": "8.0.1",
     "faker-js": "^1.0.0",
     "patch-package": "^7.0.0",
