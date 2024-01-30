@@ -12,10 +12,15 @@
   "devDependencies": {},
   "dependencies": {
     "@faker-js/faker": "^7.6.0",
-    "@strapi/plugin-i18n": "0.0.0-experimental.7a78d05d61d6a236a8f2f71201d490c4961c411d",
-    "@strapi/plugin-users-permissions": "0.0.0-experimental.7a78d05d61d6a236a8f2f71201d490c4961c411d",
-    "@strapi/strapi": "0.0.0-experimental.7a78d05d61d6a236a8f2f71201d490c4961c411d",
-    "@strapi/provider-upload-aws-s3": "0.0.0-experimental.7a78d05d61d6a236a8f2f71201d490c4961c411d",
+    "@strapi/strapi": "4.19.0",
+    "@strapi/plugin-users-permissions": "4.19.0",
+    "@strapi/plugin-i18n": "4.19.0",
+    "@strapi/plugin-cloud": "4.19.0",
+    "@strapi/provider-upload-aws-s3": "4.19.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-router-dom": "5.3.4",
+    "styled-components": "5.3.3",
     "better-sqlite3": "8.5.0",
     "faker-js": "^1.0.0",
     "pg": "8.11.1"
@@ -27,7 +32,7 @@
     "uuid": "08e0dd98-64b8-48a2-aa16-bab019fde774"
   },
   "engines": {
-    "node": ">=14.19.1 <=18.x.x",
+    "node": ">=18.0.0 <=20.x.x",
     "npm": ">=6.0.0"
   },
   "license": "MIT"
