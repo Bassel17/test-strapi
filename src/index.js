@@ -14,7 +14,7 @@ module.exports = {
   register({ strapi }) {},
 
   async bootstrap({ strapi }) {
-    // for (let index = 0; index < 4000; index++) {
+    // for (let index = 0; index < 300; index++) {
     //   const config = strapi.config.get("plugin.upload");
     //   const file = await axios.get(faker.image.abstract(), {
     //     responseType: "arraybuffer",
@@ -31,12 +31,12 @@ module.exports = {
     //     provider: config.provider,
     //     tmpWorkingDirectory: "./public/uploads",
     //     getStream: () => Readable.from(file.data),
+    //     folderPath: "/",
     //   };
     //   await strapi.plugin("upload").service("upload").uploadImage(entity);
     //   const media = await strapi
     //     .query("plugin::upload.file")
     //     .create({ data: entity });
-    //   console.log(index);
     //   try {
     //     await strapi.entityService.create("api::article.article", {
     //       data: {
@@ -47,11 +47,13 @@ module.exports = {
     //         publishedAt: "2023-01-23T17:10:46.984Z",
     //       },
     //     });
+    //     console.log(index);
     //   } catch (e) {
     //     console.log(e.details);
     //   }
     // }
     // await strapi.query("api::article.article").deleteMany();
+    // await strapi.query("plugin::upload.file").deleteMany();
   },
 
   destroy({ strapi }) {},
