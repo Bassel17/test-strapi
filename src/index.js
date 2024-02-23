@@ -16,7 +16,7 @@ module.exports = {
   async bootstrap({ strapi }) {
     // await strapi.query("api::article.article").deleteMany();
     // await strapi.query("plugin::upload.file").deleteMany();
-    // for (let index = 0; index < 100; index++) {
+    // for (let index = 0; index < 50; index++) {
     //   const config = strapi.config.get("plugin.upload");
     //   const file = await axios.get(faker.image.abstract(), {
     //     responseType: "arraybuffer",

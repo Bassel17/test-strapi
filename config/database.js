@@ -10,6 +10,10 @@ const sqlite = {
     ),
   },
   useNullAsDefault: true,
+  pool: {
+    min: 2,
+    max: 1000000,
+  },
 };
 
 const postgres = {
